@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDV Kalkulator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./index.js"></script>
+</head>
+<body>
+  <div class="container">
+    <form action="/" id="form">
+      <h1>PDV Kalkulator</h1>
+      <div class="input-control">
+        <label for="iznos">Iznos:</label>
+        <input type="number" name="iznos" id="iznos" step="0.01">
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="stopa">Stopa PDV-a:</label>
+        <select name="stopa" id="stopa">
+          <option value="opsta">Opšta stopa PDV-a od 20%</option>
+          <option value="posebna">Posebna stopa PDV-a od 10%</option>
+        </select>
+      </div>
+      <div class="input-control">
+        <label for="iznos-pdv">Iznos PDV-a:</label>
+        <output name="iznos-pdv" id="iznos-pdv"></output>
+      </div>
+      <div class="input-control">
+        <label for="iznos-konacan">Konačan iznos sa ili bez PDV-a:</label>
+        <output name="iznos-konacan" id="iznos-konacan"></output>
+      </div>
+      <button type="submit">Izračunaj PDV</button>
+      <button id="oduzmi">Oduzmi</button>
+      <button id="saberi">Saberi</button>
+    </form>
+  </div>
+</body>
+</html>
