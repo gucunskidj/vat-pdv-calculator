@@ -2,16 +2,6 @@
 
 ![](pdv-kalkulator.png)
 
+<img src="pdv-kalkulator2.png" alt="" width="350" height="500">
 
-<div style="width:350px; height:500px">
-  
-![](pdv-kalkulator2.png)
-  
-</div>
-
-
-<div style="width:350px; height:500px">
-  
-  ![](pdv-kalukator3.png)
-  
-</div>
+<img src="pdv-kalkulator3.png" alt="" width="350" height="500">
